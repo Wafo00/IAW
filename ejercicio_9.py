@@ -10,5 +10,5 @@ dto = porcentaje / 100
 valor_dto = importe_compra * dto
 total = importe_compra - valor_dto
 
-print(f"Aplicando un descuento del {porcentaje} %, se descuentan {valor_dto:.2f} €")
+print(f"Aplicando un descuento del {porcentaje:g} %, se descuentan {valor_dto:.2f} €")
 print(f"El total a pagar es {total:.2f} €")
