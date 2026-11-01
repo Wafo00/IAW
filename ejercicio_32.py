@@ -4,7 +4,7 @@
 ahorrado = 0
 
 for mes in range(1, 13):
-    deposito = float(input("Depósito del mes {mes} (€): "))
+    deposito = float(input(f"Depósito del mes {mes} (€): "))
     ahorrado = ahorrado + deposito 
     print (f"Ahorrado hasta el mes {mes}: {ahorrado:.2f} (€)")
 
