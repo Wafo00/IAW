@@ -3,8 +3,6 @@
 
 cadena = input("Introduce un texto: ")
 
-palabras = 0
-
 palabras = len(cadena.split())
 
 print(f"La frase tiene {palabras} palabra/s")
