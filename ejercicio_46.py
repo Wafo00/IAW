@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # Ejercicio 46: Realizar un programa que dada una cadena de caracteres por caracteres, genere otra cadena resultado de invertir la primera.
 
-cadena = input("Escrie un texto o cadena de caracteres cualquiera: ")
+cadena = input("Escribe un texto o cadena de caracteres cualquiera: ")
 
 invertida = ""
 
